@@ -1,38 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>My Page</title>
+    <title>Television | Appliance Energy</title>
     <link rel="icon" type="image/png" href="images/logo.png">
 
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="script.js" defer></script>
-
 </head>
+
 <body>
-    <nav class="cs-nav">
-        <div>
-            <ul class="cs-nav-list">
-                <li>
-                    <a href="index.html"  data-page="homepage">
-                        <img src="images/logo.png" class="cs-logo" alt="logo"></img>
-                    </a>
-                </li>
-                <li class="cs-list">
-                    <a href="index.html"  data-page="homepage">Home</a>
-                </li>
-                <li class="cs-list">
-                    <a href="television.html">Television</a>
-                </li>
-                <li class="cs-list">
-                    <a href="aboutus.html">About Us</a>
-                </li>
+    <nav class="cs-nav navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html" data-page="homepage">
+            <img src="images/logo.png" class="cs-logo" alt="logo"></img>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="cs-nav-list navbar-nav">
+            <li class="cs-list nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="cs-list nav-item active">
+                <a class="nav-link cs-list" href="television.html">Television</a>
+            </li>
+            <li class="cs-list nav-item active">
+                <a class="nav-link cs-list" href="aboutus.html">About Us</a>
+            </li>
             </ul>
         </div>
     </nav>
 
-   <section id="television">
-        <h1 class="cs-title">Televisions</h1>
+    <h1 class="cs-title">Televisions</h1>
         <div class="cs-tele">
             <div class="cs-tele-content">
                 <img src="images/samsungtv.png" class="cs-pic"alt="pic">
@@ -58,7 +59,61 @@
                 <p>Cost: RM 2967</p>
             </div>
         </div>
-    </section>
+
+        <div class="cs-data-story">
+            <h1>TV Energy Insights: Data Story</h1>
+            <p>
+                This section presents findings from the Australian Government’sTelevision Energy Rating dataset.The aim<br>
+                is to help Australian consumersbmake informed decisions about technology,size, brand, and efficiency.
+            </p>
+        </div>
+
+        <div class="cs-chart-visualization">
+            <h2>Chart 1: What TV technologies are most common?</h2>
+            <p>The screen technology that is most frequent in Australia is LCD (LED).</p>
+            <br>
+            <img src="images/Pie Chart-Q1.png" class="cs-chart">
+        </div>
+
+        <div class="cs-chart-visualization">
+            <h2>Chart 2: What screen sizes are currently available, and which are the most frequent?</h2>
+            <p>TScreen size 54 inches is available and most frequent.</p>
+            <br>
+            <img src="images/Scatter Plot- Q2.png" class="cs-chart">
+        </div>
+
+        <div class="cs-chart-visualization">
+            <h2>Chart 3: Which brands have the greatest number of different models?</h2>
+            <p>Brand SAMSUNG ELECTRONICS have the greatest number of different models.</p>
+            <br>
+            <img src="images/Bar Chart-Q3.png" class="cs-chart">
+        </div>
+
+        <div class="cs-chart-visualization">
+            <h2>Chart 4: Which screen type uses the least power?</h2>
+            <p>Screen technology LCD shows it consume least amount of power.</p>
+            <br>
+            <img src="images/Bar Chart-Q4.png" class="cs-chart">
+        </div>
+
+        <div class="cs-chart-visualization">
+            <h2>Chart 5: What is the relationship between screen size and power use?</h2>
+            <p>The scatter plot shows the larger the screen size, the more the power use.</p>
+            <br>
+            <img src="images/Bar Chart-Q5.png" class="cs-chart">
+        </div>
+
+        <div class="cs-chart-visualization">
+            <h2>Chart 6: What is the relationship between star rating and screen size?</h2>
+            <p>The star ratings are fairly distributed across all screen sizes, the bigger television can still be the better choice.</p>
+            <br>
+            <img src="images/Scatter Plot- Q6.png" class="cs-chart">
+        </div>
+
+        <div class="cs-chart-visualization">
+            <h1>Conclusion</h1>
+            <p>Based on the data shows above, a 54-inch LED TV is suitable and energy-effiecient for most households.</p>
+        </div>
 
 <footer>
     <div class="cs-footer">
