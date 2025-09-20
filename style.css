@@ -1,32 +1,32 @@
+/* html {
+    overflow-y: scroll;
+    scrollbar-gutter: stable;
+} */
+
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /* Navigation bar */
-.cs-nav{
+.cs-nav {
     background-color: #333333;
 }
 
-.cs-nav-list{
-    display: flex;
-    align-items: center;
-}
-
-.cs-logo{
-    height:6.5vh;
-    width:3vw;
+.cs-logo {
+    height: 6.5vh;
+    width: 3vw;
     margin-top: 5px;
     margin-left: 2rem;
     margin-right: 5px;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
 
 }
 
@@ -35,33 +35,34 @@ li {
     font-size: 1.3rem;
 }
 
-li a{
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 ul .cs-list {
-  float: left;
-  /* font-size: 1.3rem; */
+    /* float: left; */
+    min-width: 7rem;
+    font-size: 1rem;
 }
 
 ul .cs-list a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 10px 14px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
 }
 
 .cs-list a.active {
-  background: rgb(210, 125, 22);    
-  border-radius: 5px;
+    background: rgb(210, 125, 22);
+    border-radius: 5px;
 }
 
-.cs-title{
+.cs-title {
     display: flex;
     justify-content: center;
     margin: 1rem;
@@ -69,113 +70,114 @@ ul .cs-list a {
 }
 
 /* Home */
-.cs-home{
+.cs-home {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-image: url("images/port-tem.png");
-    background-size: cover;       
-    background-position: center;  
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     height: 77vh;
 }
 
-.cs-home h1{
+.cs-home h1 {
     font-size: 3rem;
 }
 
 /* Television */
-.cs-tele{
+.cs-tele {
     display: flex;
     justify-content: center;
 }
-.cs-tele-content{
+
+.cs-tele-content {
     margin: 1rem;
-    border: 1px solid #000;         
-    border-radius: 12px;             
-    padding: 20px;                  
-    width: 300px;                     
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
-    transition: transform 0.2s ease;  
+    border: 1px solid #000;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
     /* margin-bottom: 2rem; */
 }
 
-.cs-tele-content p{
+.cs-tele-content p {
     font-size: 1.3rem;
     font-weight: 400;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.cs-pic{
+.cs-pic {
     /* width: 85%; */
-    height:9rem;
+    height: 9rem;
     margin-left: 12px;
     margin-bottom: 2rem;
 }
 
-.cs-data-story{
+.cs-data-story {
     display: flex;
     flex-direction: column;
     margin: 0;
     margin-left: 15rem;
 }
 
-.cs-data-story h1{
-    margin:0;
+.cs-data-story h1 {
+    margin: 0;
     margin-top: 2rem;
 }
 
-.cs-data-story p{
+.cs-data-story p {
     font-size: 1.2rem;
 }
 
-.cs-chart-visualization{
+.cs-chart-visualization {
     display: flex;
     flex-direction: column;
     margin: 0;
     margin-left: 15rem;
 }
 
-.cs-chart-visualization h2{
+.cs-chart-visualization h2 {
     font-size: 1.7rem;
 }
 
-.cs-chart-visualization p{
+.cs-chart-visualization p {
     font-size: 1.2rem;
     margin: 0;
 }
 
-.cs-chart{
+.cs-chart {
     width: 60vw;
     height: 100vh;
 }
 
 
 /* About us */
-.cs-aboutus-pic{
+.cs-aboutus-pic {
     display: flex;
     justify-content: center;
 }
 
-.cs-aboutus-content{
+.cs-aboutus-content {
     display: grid;
     justify-content: center;
 }
 
 /* Footer */
-.cs-footer{
+.cs-footer {
     background-color: #333333;
     color: white;
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: space-evenly;
-    margin:0;   
+    margin: 0;
     margin-top: 1rem;
     padding: 10px;
 }
 
-.cs-footer p{
+.cs-footer p {
     margin: 2px;
 }
